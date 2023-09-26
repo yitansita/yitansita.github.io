@@ -1,0 +1,58 @@
+body
+{
+    background-image: url(img/fondo4.jpg);
+
+    /*background-attachment: fixed;/*toda la hoja*/
+}
+
+
+h1
+{
+    text-align: center;
+    color: black;
+    font-family:Algerian;
+
+}
+
+
+p
+{
+    background-color:black;
+    color: aliceblue;
+    margin: 10px;
+}
+
+/* clase para título*/
+.titulo
+{
+    font-family:Algerian, cursive;
+    color:white;
+    font-size: 50px;
+    letter-spacing: 2px;
+   text-align: center;
+   font-weight: 400;/*grosor del texto*/
+      /*background-color:aqua*/
+   
+    
+}
+.navegacion
+{
+    font-family: 'Edu SA Beginner', cursive;
+    color:black;
+    text-decoration: none;
+    /*width: auto;*/
+    margin: 0px auto;/*distancia entre la barra de navegación y titulo*/
+    background-color:darkred;
+    padding: 8px;
+    text-decoration:none;
+    /*distribuye la barra de menú*/
+    display: flex;
+    justify-content:space-around;
+}
+/*clase para distribuir los parrafos*/
+.principal
+{
+display:flex;
+text-decoration:none;
+
+}
